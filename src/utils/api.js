@@ -43,7 +43,7 @@ export const fetchMonitorData = async () => {
     }
 
     return response.data.monitors
-      .sort((a, b) => b.create_datetime - a.create_datetime)
+      .sort((a, b) => a.friendly_name.localeCompare(b.friendly_name))
       .map(processMonitorData)
 
   } catch (error) {
