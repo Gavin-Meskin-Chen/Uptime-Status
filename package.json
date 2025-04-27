@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "author": "JLinmr",
-  "url": "https://www.bsgun.cn",
-  "email": "ruoms@qq.com",
+  "url": "https://blog.cancin.cn",
+  "email": "gavin.m.chen@qq.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JLinmr/Uptime-Status"
+    "url": "https://github.com/Gavin-Meskin-Chen"
   },
   "type": "module",
   "scripts": {
