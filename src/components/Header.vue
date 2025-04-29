@@ -86,7 +86,7 @@ const emit = defineEmits(['refresh', 'toggle-theme'])
 /**
  * 刷新间隔
  */
-const REFRESH_INTERVAL = 300 // 5分钟 = 300秒
+const REFRESH_INTERVAL = 1800 // 30分钟 = 1800秒
 const countdown = ref(REFRESH_INTERVAL)
 let timer = null
 
